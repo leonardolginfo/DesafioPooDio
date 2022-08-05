@@ -23,7 +23,11 @@ public class Mentoria extends Conteudo{
     public double calcularXp() {
         return XP_PADRAO + 20;
     }
+<<<<<<< HEAD
     public LocalDate getData() {
+=======
+       public LocalDate getData() {
+>>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414
         return data;
     }
 
@@ -41,4 +45,8 @@ public class Mentoria extends Conteudo{
     }
 
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414

@@ -66,4 +66,8 @@ public class BootCamp {
         return Objects.hash(nome, descricao, dataInicio, dataFinal, devsInscritos);
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414

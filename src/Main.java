@@ -9,8 +9,13 @@ import java.time.LocalDateTime;
 public class Main {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
 
         Curso curso1 = new Curso();
+=======
+        Curso curso1 = new Curso();
+
+>>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414
         curso1.setTitulo("Curso Java");
         curso1.setDescricao("Curso Java Web");
         curso1.setCargaHoraria(40);
@@ -52,4 +57,8 @@ public class Main {
         System.out.println("Nome Dev: " + devMariazinha.getNome() + " " + "Conteúdos concluidos: " + devMariazinha.getConteudosConcluidos());
 
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414
