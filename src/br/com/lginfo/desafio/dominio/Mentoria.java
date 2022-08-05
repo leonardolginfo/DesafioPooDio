@@ -1,15 +1,12 @@
 package br.com.lginfo.desafio.dominio;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Objects;
 
-public class Mentoria extends Conteudo{
+public class Mentoria extends Conteudo {
 
     private LocalDate data;
 
-    public  Mentoria(){
-
+    public Mentoria() {
     }
 
     public Mentoria(String titulo, String descricao, LocalDate data) {
@@ -23,11 +20,8 @@ public class Mentoria extends Conteudo{
     public double calcularXp() {
         return XP_PADRAO + 20;
     }
-<<<<<<< HEAD
+
     public LocalDate getData() {
-=======
-       public LocalDate getData() {
->>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414
         return data;
     }
 
@@ -43,10 +37,4 @@ public class Mentoria extends Conteudo{
                 ", data=" + data +
                 '}';
     }
-
-
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414
