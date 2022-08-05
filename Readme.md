@@ -6,4 +6,4 @@
 ### 2 - HERANÇA;
 ### 3 - POLIMORFISMO
 
-### Projeto simples mas que é possível colocar em prática o tripé da POO
+### Projeto simples mas onde foi possível colocar em prática o tripé da POO
