@@ -13,13 +13,13 @@ public class Main {
 
         curso1.setTitulo("Curso Java");
         curso1.setDescricao("Curso Java Web");
-        curso1.setCargaHoraria(40);
+        curso1.setCargaHoraria(8);
         //System.out.println(curso1);
 
         Curso curso2 = new Curso();
         curso2.setTitulo("Curso Java - II");
         curso2.setDescricao("Curso Java Web - II");
-        curso2.setCargaHoraria(40);
+        curso2.setCargaHoraria(4);
         //System.out.println(curso2);
 
         Mentoria mentoria1 = new Mentoria();
@@ -46,10 +46,23 @@ public class Main {
         devMariazinha.inscreverBootCamp(bootCamp);
 
         System.out.println("Nome Dev: " + devLeonardo.getNome() + " "   + "Conteúdos inscritos: " + devLeonardo.getConteudosInscritos());
-        System.out.println("Nome Dev: " + devLeonardo.getNome() + " "   + "Conteúdos concluídos: " + devLeonardo.getConteudosConcluidos());
+        devLeonardo.progredir();
+        devLeonardo.progredir();
+        System.out.println("-");
+        System.out.println("Conteúdos inscritos: " + devLeonardo.getConteudosInscritos());
+        System.out.println("Conteúdos concluídos: " + devLeonardo.getConteudosConcluidos());
+        System.out.println("XP: " + devLeonardo.calcularTotalXp());
+
+        System.out.println("----*----");
 
         System.out.println("Nome Dev: " + devMariazinha.getNome() + " " + "Conteúdos inscritos: " + devMariazinha.getConteudosInscritos());
-        System.out.println("Nome Dev: " + devMariazinha.getNome() + " " + "Conteúdos concluidos: " + devMariazinha.getConteudosConcluidos());
+        devMariazinha.progredir();
+        devMariazinha.progredir();
+        devMariazinha.progredir();
+        System.out.println("-");
+        System.out.println("Conteúdos inscritos: " + devMariazinha.getConteudosInscritos());
+        System.out.println("Conteúdos concluídos: " + devMariazinha.getConteudosConcluidos());
+        System.out.println("XP: " + devMariazinha.calcularTotalXp());
 
     }
 

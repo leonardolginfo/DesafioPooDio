@@ -23,8 +23,8 @@ public abstract class Conteudo {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 7ecfc201d79f7091a784370d98892c97bf4a0414
+
+
+
